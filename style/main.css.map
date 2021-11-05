@@ -2,7 +2,12 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "main.scss"
+        "main.scss",
+        "index.scss",
+        "work.scss",
+        "porfolio.scss",
+        "blog.scss",
+        "about.scss"
     ],
     "names": [],
     "file": "main.css"
