@@ -4,17 +4,41 @@ $color2: #222831;
 $color3: #30475E;
 $color4: #F05454;
 
-
 * {
     margin: 0;
     padding: 0;
+}
+
+.slide-out {
+    background-color: rgb(45, 45, 45);
+    color: $color1;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    line-height: 100vh;
+    z-index: 2;
+	animation: index-anime 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.index_body{
+    width:100%;
+    height:100%;
+    background-image: url("https://images.unsplash.com/photo-1615107899082-044cc1133649?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2156&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left;
+    background-size:cover;
+    background-color:#222831;
+    z-index:-1;
 }
 
 .top_navbar{
 
     ul{
         top: 0px;
+        left: 1vw;
         width: 98vw;
+        max-width: 1440px;
         height: 12vh;
         z-index: 0;
 
@@ -43,9 +67,10 @@ $color4: #F05454;
             box-sizing: border-box;
             line-height: 12vh;
             border-radius: 1vh;
-            animation: navbar-slide-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation-delay: 3s;
-            animation-iteration-count:1;
+
+            animation: navbar-slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation-delay: 1s;
+            
             &:hover{
                 background-color: $bgcolor;
                 color: white;
@@ -53,40 +78,6 @@ $color4: #F05454;
             }
         }
     }
-}
-
-@keyframes navbar-slide-in-top {
-    0% {
-        transform: scale(0);
-        opacity: 0;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-  
-footer{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    z-index: 2;
-    color: #30475E;
-    font-size: 0.6rem;
-}
-
-// ------------------------------index
-
-.index_body{
-    width:100%;
-    height:100%;
-    background-image: url("https://images.unsplash.com/photo-1615107899082-044cc1133649?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2156&q=80");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top left;
-    background-size:cover;
-    background-color:#222831;
-    z-index:-1;
 }
 
 .index_into{
@@ -100,15 +91,9 @@ footer{
     text-align: center;
     text-shadow: 0 0 1em $color1, 0 0 1em $color1;
     z-index: 0;
-    animation: index-into-fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation-delay: 3s;
-    animation-iteration-count:1;
-}
 
-@keyframes index-into-fade-in {
-    0% {opacity: 0;}
-    20% {opacity: 0;}
-    100% {opacity: 1;}
+    animation: index-into-fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 2s;
 }
 
 .ii_item{     
@@ -120,37 +105,20 @@ footer{
 .it_t{
     display: inline;
 }
-
-//-------------------------------------anime
-
-.index-slide-out {
-    background-color: rgb(45, 45, 45);
-    color: $color1;
-    width: 100vw;
-    height: 100vh;
-    text-align: center;
-    line-height: 100vh;
-    z-index: 2;
-	animation: index-anime 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    animation-iteration-count:1;
-}
   
+footer{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;
+    color: #30475E;
+    font-size: 0.6rem;
+}
+
+//animation----------------------
+
 @keyframes index-anime {
     0% {
-        width: 100%;
-        height: 100%;
-        transform: scale(2);
-        filter: blur(4px);
-        opacity: 0;
-    }
-    10% {
-        width: 100%;
-        height: 100%;
-        transform: scale(1);
-        filter: blur(0px);
-        opacity: 1;
-    }
-    50% {
         width: 100%;
         height: 100%;
         transform: translateZ(1);
@@ -167,4 +135,21 @@ footer{
         height: 0;
         overflow: hidden;
     }
+}
+
+@keyframes navbar-slide-in-top {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes index-into-fade-in {
+    0% {opacity: 0;}
+    20% {opacity: 0;}
+    100% {opacity: 1;}
 }

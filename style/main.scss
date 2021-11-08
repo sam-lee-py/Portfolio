@@ -2,5 +2,48 @@
 @import "./work.scss";
 @import "./porfolio.scss";
 @import "./blog.scss";
-@import "./about.scss";
 @import "./contact.scss";
+
+// ----work----
+$bgcolor: rgba(115, 115, 115,0.6);
+$color1: #DDDDDD;
+$color2: #222831;
+$color3: #30475E;
+$color4: #F05454;
+
+.work_body {
+    width:100%;
+    height:100%;
+    background-image: url("https://images.unsplash.com/photo-1503252947848-7338d3f92f31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1931&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left;
+    background-size:cover;
+    background-color:#222831;
+    z-index:-1;
+}
+
+.work_w{
+    position: absolute;
+    top: 22vh;
+    left: 5vw;
+
+
+    .work_intr{
+        color: $color1;
+        
+        
+        .wi_title{
+            font-size: 1.5em;
+        }
+
+        .wi_main{
+            font-size: 1.2em;
+            margin-top: 0.5em;
+        }
+    }
+
+    .wrok_img{
+
+    }
+}
