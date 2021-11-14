@@ -1,5 +1,5 @@
 # Portfolio Website
-This is my ***[Portfolio website]https://quirky-kilby-7ef6c7.netlify.app)*** , Link is ***[https://quirky-kilby-7ef6c7.netlify.app](https://quirky-kilby-7ef6c7.netlify.app)***.
+This is my ***[Portfolio website](https://quirky-kilby-7ef6c7.netlify.app)*** , Link is ***[https://quirky-kilby-7ef6c7.netlify.app](https://quirky-kilby-7ef6c7.netlify.app)***.
 
 ***[GitHub repository](https://github.com/sam-lee-py/Portfolio)***  for this website is ***[https://github.com/sam-lee-py/Portfolio](https://github.com/sam-lee-py/Portfolio)***.
 
@@ -44,7 +44,7 @@ All the animation in this website use CSS animation. For example,
 ```
 
 ## Sitemap
-Here is the Sitemap for this websit:
+Here is the Sitemap for this websit(use mermaid):
 ```mermaid
     graph TB
     index(index) --> portfolio(portfolio)
@@ -56,6 +56,7 @@ Here is the Sitemap for this websit:
     contact(contact) --> email(E-mail form)
     contact(contact) --> link(CV.pdf and officail webist link)
 ```
+![sitemap](./files/img/sitemap.png)
 
 ### Target audience
 This website target audience is for the **cooperater** and **employer**.
