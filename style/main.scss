@@ -212,7 +212,7 @@ footer{
 .index_body{
     width:100%;
     height:100%;
-    background-image: url("https://images.unsplash.com/photo-1615107899082-044cc1133649?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2156&q=80");
+    background-image: url("../files/img/bg3.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top left;
@@ -366,7 +366,7 @@ footer{
 .porfolio_body {
     width:100%;
     height:100%;
-    background-image: url("https://images.unsplash.com/photo-1503252947848-7338d3f92f31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1931&q=80");
+    background-image: url("../files/img/bg2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right center;
@@ -381,7 +381,7 @@ footer{
         height:84%;
         top:14%;
         left:5%;
-        background-color: $bgcolor;
+        background-color: rgba(240, 84, 84,0.05);
         position: absolute;
         border-radius: 15px;
         z-index:0;
@@ -521,13 +521,13 @@ footer{
                         .wi_main{
                             margin-top: 3%;
                             display: flex;
-                            justify-content: space-between;
+                            justify-content: space-around;
                             flex-wrap: wrap;
                             font-size: 1em;
                             margin-left: 1em;
                             
                             ul{
-                                max-width: 80%;
+                                max-width: 45%;
                                 min-width: 300px;
                                 list-style-type:none;
                                 box-sizing: border-box;
@@ -539,7 +539,7 @@ footer{
                             }
 
                             img{
-                                max-width: 60%;
+                                max-width: 45%;
                                 min-width: 300px;
                                 max-height: 60vh;
                                 opacity:0.7;
@@ -594,7 +594,7 @@ footer{
         height:84%;
         top:14%;
         left:5%;
-        background-color: #393e46;
+        background-color: rgba(240, 84, 84,0.05);
         z-index: 0;
         display: flex;
         justify-content:center;
@@ -732,7 +732,7 @@ footer{
                         justify-content:center;
 
                         .bpb_text{
-                            width: 49%;
+                            width: 40%;
                             min-width: 300px;
                             box-sizing: border-box;
                             padding:10px;
@@ -780,7 +780,7 @@ footer{
 .contact_body {
     width:100%;
     height:100%;
-    background-image: url("https://images.unsplash.com/photo-1536704231234-beca9772ca68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80");
+    background-image: url("../files/img/bg3.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top left;
@@ -795,7 +795,8 @@ footer{
         height:84%;
         top:14%;
         left:5%;
-        background-color: $bgcolor;
+        background-color: rgba(240, 84, 84,0.05);
+        
         position: absolute;
         border-radius: 15px;
         z-index:0;
@@ -803,7 +804,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow:0px 15px 10px -15px #000;
+        box-shadow: 0px 15px 10px -15px #000;
 
         .con_section{
             width: 40%;
@@ -813,14 +814,14 @@ footer{
             border-radius: 15px;
 
             position: absolute;
-            background-color: rgba(50, 50, 50,0.5);;
+            background-color: $bgcolor;
 
             display: flex;
             justify-content: center;
             align-items: center;
 
             z-index: 4;
-            box-shadow:0px 0px 10px #000;
+            box-shadow: 0px 0px 10px #000;
         
 
 
@@ -901,7 +902,10 @@ footer{
                                 color: inherit;
                                 text-decoration:none; 
     
-                                img{width: 25px;}
+                                img{
+                                    width: 25px;
+                                    margin: 2px 5px 0 5px;
+                                }
                             }
                         }
                     }
