@@ -1227,11 +1227,11 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   color: #DDDDDD;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .contact_body .contact_main .con_section .form ul li img {
-  width: 40px;
+  width: 30px;
 }
 
 .contact_body .contact_main .con_section .form ul li textarea {
@@ -1274,7 +1274,6 @@ footer {
 }
 
 .contact_body .contact_main .con_section .form .link {
-  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1292,7 +1291,6 @@ footer {
 }
 
 .contact_body .contact_main .con_section .form .link ul li {
-  margin: 3px;
   color: #DDDDDD;
 }
 
@@ -1303,7 +1301,7 @@ footer {
 
 .contact_body .contact_main .con_section .form .link ul li a img {
   width: 25px;
-  margin: 2px 5px 0 5px;
+  margin: 0 5px 0 5px;
 }
 
 @media screen and (max-width: 638px) {

@@ -822,8 +822,6 @@ footer{
 
             z-index: 4;
             box-shadow: 0px 0px 10px #000;
-        
-
 
             .form{
                 top:10px;
@@ -843,10 +841,10 @@ footer{
                         display:flex;
                         justify-content: center;
                         color:$color1;
-                        font-size: 1.2em;
+                        font-size: 1em;
 
                         img{
-                            width: 40px;                           
+                            width: 30px;                           
                         }
                         
                         textarea{
@@ -887,7 +885,6 @@ footer{
                 } 
 
                 .link{
-                    margin-top:10px;
                     display: flex;
                     justify-content: center;
                     ul{
@@ -895,7 +892,6 @@ footer{
                         flex-direction: row;
 
                         li{
-                            margin: 3px;
                             color: $color1;
     
                             a{
@@ -904,7 +900,7 @@ footer{
     
                                 img{
                                     width: 25px;
-                                    margin: 2px 5px 0 5px;
+                                    margin: 0 5px 0 5px;
                                 }
                             }
                         }
