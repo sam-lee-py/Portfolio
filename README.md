@@ -19,7 +19,7 @@ Here is the Sitemap for this websit(use mermaid):
     contact(contact) --> email(E-mail form)
     contact(contact) --> link(CV.pdf and officail webist link)
 ```
-![sitemap](./files/img/sitemap.png)
+![sitemap](./docs/sitemap.png)
 
 ## Functionality / Features
 This website is deveoped by ***HTML and CSS***.
@@ -30,9 +30,12 @@ This website is deveoped by ***HTML and CSS***.
 - blog page
 - contact page
 
+#### SRI Use sha512 sha384 sha256 
+```html
+    <link rel="stylesheet" href="./style/main.css" integrity="sha512-ZId9KhM9BFGWnU9/hA8FiF7IzMYYBwXqy2PkKWCCayVaWKEIzT4nEE11PCco8Ds7uCfzAXE9in74gtTazFkzEw== sha384-ig/qF4YeX224oa3kN9ime4M8eH+4AyYLdyJeyZLJrvXuhXqwml91ZU91gCaklywv sha256-bD7DA/aVtmVjCXqfkxnmNwybyeQwrnkSa6kVK3qq1kI=" crossorigin="anonymous" /> 
+```
 
-
-All the animation in this website use CSS animation. For example,
+#### All the animation in this website use CSS animation. For example,
 ```css
     animation: logo-tracking 10s infinite;
 
@@ -49,13 +52,13 @@ This website target audience is for the **cooperater** and **employer**.
 
 ### Screenshots
 - **Index page**
-    ![index page](./files/img/index_page.png)
+    ![index page](./docs/index_page.png)
 - **Portfolio page**
-    ![Portfolio page](./files/img/portfolio_page.png)
+    ![Portfolio page](./docs/portfolio_page.png)
 - **Blog page**
-    ![Blog page](./files/img/blog_page.png)
+    ![Blog page](./docs/blog_page.png)
 - **Contact page**
-    ![Contact page](./files/img/contact_page.png)
+    ![Contact page](./docs/contact_page.png)
 
 ### Tech stack
 #### HTML
@@ -74,8 +77,8 @@ Cascading Style Sheets (CSS) determines how the content displays. It controls co
 - ```#a7b5bb```
 
 #### Icon use:
-- ![x-icon](./files/img/icon.png)
-- ![CV-icon](./files/img/CV_icon.png)
-- ![email-icon](./files/img/email_icon.png)
-- ![github-icon](./files/img/github_icon.png)
-- ![Linkedin-icon](./files/img/Linkedin_icon.png)
+- ![x-icon](./docs/icon.png)
+- ![CV-icon](./docs/CV_icon.png)
+- ![email-icon](./docs/email_icon.png)
+- ![github-icon](./docs/github_icon.png)
+- ![Linkedin-icon](./docs/Linkedin_icon.png)
