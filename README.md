@@ -6,43 +6,6 @@ This is my ***[Portfolio website](https://quirky-kilby-7ef6c7.netlify.app)*** , 
 ## Purpose
 This website is used to show my work **porfoliov, previous experience, hobbies** and some **blogs**.
 
-## Functionality / Features
-This website is deveoped by ***HTML and CSS***.
-
-#### Contains 4 HTML page:
-- idex page
-- portfolio page
-- blog page
-- contact page
-
-#### Color use:
-- ```#DDDDDD```
-- ```#222831```
-- ```#30475E```
-- ```#F05454```
-- ```#222831```
-- ```#717d8c```
-- ```#a7b5bb```
-
-#### Icon use:
-- ![x-icon](./files/img/icon.png)
-- ![CV-icon](./files/img/CV_icon.png)
-- ![email-icon](./files/img/email_icon.png)
-- ![github-icon](./files/img/github_icon.png)
-- ![Linkedin-icon](./files/img/Linkedin_icon.png)
-
-All the animation in this website use CSS animation. For example,
-```css
-    animation: logo-tracking 10s infinite;
-
-    @keyframes logo-tracking {
-    0% {letter-spacing: -0.5em; filter: blur(6px);}
-    25% {letter-spacing: 0.1em; filter: blur(0px);}
-    75% {letter-spacing: 0.1em; filter: blur(0px);}
-    100% {letter-spacing: -0.5em; filter: blur(6px);}
-}
-```
-
 ## Sitemap
 Here is the Sitemap for this websit(use mermaid):
 ```mermaid
@@ -57,6 +20,29 @@ Here is the Sitemap for this websit(use mermaid):
     contact(contact) --> link(CV.pdf and officail webist link)
 ```
 ![sitemap](./files/img/sitemap.png)
+
+## Functionality / Features
+This website is deveoped by ***HTML and CSS***.
+
+#### Contains 4 HTML page:
+- idex page
+- portfolio page
+- blog page
+- contact page
+
+
+
+All the animation in this website use CSS animation. For example,
+```css
+    animation: logo-tracking 10s infinite;
+
+    @keyframes logo-tracking {
+    0% {letter-spacing: -0.5em; filter: blur(6px);}
+    25% {letter-spacing: 0.1em; filter: blur(0px);}
+    75% {letter-spacing: 0.1em; filter: blur(0px);}
+    100% {letter-spacing: -0.5em; filter: blur(6px);}
+}
+```
 
 ### Target audience
 This website target audience is for the **cooperater** and **employer**.
@@ -76,3 +62,20 @@ This website target audience is for the **cooperater** and **employer**.
 Hypertext Markup Language (HTML) is used for structuring and placing content. 
 #### CSS
 Cascading Style Sheets (CSS) determines how the content displays. It controls colors, fonts, layout, etc. 
+
+### Style
+#### Color use:
+- ```#DDDDDD```
+- ```#222831```
+- ```#30475E```
+- ```#F05454```
+- ```#222831```
+- ```#717d8c```
+- ```#a7b5bb```
+
+#### Icon use:
+- ![x-icon](./files/img/icon.png)
+- ![CV-icon](./files/img/CV_icon.png)
+- ![email-icon](./files/img/email_icon.png)
+- ![github-icon](./files/img/github_icon.png)
+- ![Linkedin-icon](./files/img/Linkedin_icon.png)
